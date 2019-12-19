@@ -1,8 +1,5 @@
 import { combineReducers } from 'redux';
-
-const postsReducer = (state = null, action) => {
-    return state;
-}
+import postsReducer from './postsReducer';
 
 export default combineReducers({
     posts: postsReducer
